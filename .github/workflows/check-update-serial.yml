@@ -26,7 +26,7 @@ jobs:
       run: |
         git fetch origin main
         git checkout origin/main
-        SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK")
+        SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK.json")
         echo "main_updateSerial=$SERIAL" >> $GITHUB_ENV
 
     - name: Get PR branch updateSerial
@@ -34,7 +34,7 @@ jobs:
       run: |
         git fetch origin ${{ github.event.pull_request.head.ref }}
         git checkout ${{ github.event.pull_request.head.ref }}
-        SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK")
+        SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK.json")
         echo "pr_updateSerial=$SERIAL" >> $GITHUB_ENV
 
     - name: Compare updateSerial values
