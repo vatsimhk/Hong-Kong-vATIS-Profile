@@ -1,0 +1,51 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  check-updateSerial:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Get current main branch updateSerial
+      id: main_serial
+      run: |
+        git fetch origin main
+        git checkout origin/main
+        SERIAL=$(jq -r '.updateSerial' "vATIS Profile - Hong Kong FIR VHHK.json")
+        echo "main_updateSerial=$SERIAL" >> $GITHUB_ENV
+
+    - name: Get PR branch updateSerial
+      id: pr_serial
+      run: |
+        SERIAL=$(jq -r '.updateSerial' "vATIS Profile - Hong Kong FIR VHHK.json")
+        echo "pr_updateSerial=$SERIAL" >> $GITHUB_ENV
+
+    - name: Compare updateSerial values
+      run: |
+        echo "Main branch updateSerial: $main_updateSerial"
+        echo "PR branch updateSerial: $pr_updateSerial"
+        if [ "$pr_updateSerial" -le "$main_updateSerial" ]; then
+          echo "Error: The updateSerial in the PR branch ($pr_updateSerial) is not greater than the main branch ($main_updateSerial)."
+          exit 1
+        fi
+        echo "updateSerial check passed."
+      env:
+        main_updateSerial: ${{ env.main_updateSerial }}
+        pr_updateSerial: ${{ env.pr_updateSerial }}
