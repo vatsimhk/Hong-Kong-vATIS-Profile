@@ -13,7 +13,7 @@
         "low": "N",
         "high": "Z"
       },
-      "frequency": 127050000,
+      "frequency": 127050000
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female"
