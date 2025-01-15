@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025011401,
+  "updateSerial": 2025011501,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -340,7 +340,7 @@
           "name": "07 3RS",
           "airportConditions": "",
           "notams": "",
-          "template": "",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 07C [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -581,7 +581,7 @@
         {
           "text": "DEPARTURES, RWY 07L.",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEPARTURES, RWY 07C.",
@@ -1188,6 +1188,11 @@
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
+        },
+        {
+          "variableName": "AVBL",
+          "text": "AVBL",
+          "voice": "AVAILABLE"
         }
       ],
       "airportConditionDefinitions": [
@@ -1239,15 +1244,15 @@
         {
           "text": "ARRIVALS, RUNWAY 25L. AND RWY 25R.",
           "ordinal": 10,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R.",
           "ordinal": 11,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "@RNP @APCH IS AVAILABLE ON @REQ.",
+          "text": "@RNP @APCH IS @AVBL ON @REQ.",
           "ordinal": 12,
           "enabled": false
         },
@@ -1601,7 +1606,7 @@
         }
       },
       "notamsBeforeFreeText": false,
-      "airportConditionsBeforeFreeText": true,
+      "airportConditionsBeforeFreeText": false,
       "frequency": 126400000,
       "idsEndpoint": "",
       "useNotamPrefix": false,
@@ -1624,7 +1629,7 @@
         {
           "id": "519e3d50-d14d-48ab-99f8-79326f826e70",
           "name": "34",
-          "template": "THIS IS [FACILITY] ATIS [ATIS_CODE] [OBS_TIME]. RWY 34 IN USE. WIND RWY 34 TOUCHDOWN ZONE [WIND], STOP END [WIND]. @VIS RWY 34 TOUCHDOWN ZONE [VIS], MID POINT [VIS], STOP END [VIS]. [CLOUDS] [TEMP] [DEW] [PRESSURE]. [TREND]. [NOTAMS] ",
+          "template": "THIS IS [FACILITY] @ATIS [ATIS_CODE] [OBS_TIME]. RWY 34 IN USE. WIND RWY 34 TOUCHDOWN ZONE [WIND], STOP END [WIND]. @VIS RWY 34 TOUCHDOWN ZONE [VIS], MID POINT [VIS], STOP END [VIS]. [CLOUDS] [TEMP] [DEW] [PRESSURE]. [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
