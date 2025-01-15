@@ -30,6 +30,12 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Get PR branch updateSerial
+      id: pr_serial
+      run: |
+        SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK.json")
+        echo "pr_updateSerial=$SERIAL" >> $GITHUB_ENV
+
     - name: Get current main branch updateSerial
       id: main_serial
       run: |
@@ -37,14 +43,6 @@ jobs:
         git checkout origin/main
         SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK.json")
         echo "main_updateSerial=$SERIAL" >> $GITHUB_ENV
-
-    - name: Get PR branch updateSerial
-      id: pr_serial
-      run: |
-        git fetch origin ${{ github.event.pull_request.head.ref }}
-        git checkout ${{ github.event.pull_request.head.ref }}
-        SERIAL=$(jq -r '.updateSerial' "vATIS-Profile-Hong-Kong-FIR-VHHK.json")
-        echo "pr_updateSerial=$SERIAL" >> $GITHUB_ENV
 
     - name: Compare updateSerial values
       run: |
