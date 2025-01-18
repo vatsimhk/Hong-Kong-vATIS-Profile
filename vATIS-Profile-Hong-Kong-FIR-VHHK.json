@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025011601,
+  "updateSerial": 2025011801,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -1197,22 +1197,22 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "ARRIVALS, RUNWAY 07L.",
+          "text": "ARRIVALS, RWY 07L.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 07C.",
+          "text": "ARRIVALS, RWY 07C.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 07R.",
+          "text": "ARRIVALS, RWY 07R.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 07L. AND RWY 07R.",
+          "text": "ARRIVALS, RWY 07L. AND RWY 07R.",
           "ordinal": 4,
           "enabled": false
         },
@@ -1227,22 +1227,22 @@
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 25L.",
+          "text": "ARRIVALS, RWY 25L.",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 25C.",
+          "text": "ARRIVALS, RWY 25C.",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 25R.",
+          "text": "ARRIVALS, RWY 25R.",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RUNWAY 25L. AND RWY 25R.",
+          "text": "ARRIVALS, RWY 25L. AND RWY 25R.",
           "ordinal": 10,
           "enabled": false
         },
