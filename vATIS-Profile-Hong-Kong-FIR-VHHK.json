@@ -634,23 +634,28 @@
           "enabled": false
         },
         {
-          "text": "@EXP RWY 25L AFTER 0600Z.",
+          "text": "@EXP RWY 07C AFTER 1500Z.",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS.",
+          "text": "@EXP RWY 25C AFTER 1500Z.",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET.",
+          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS.",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY.",
+          "text": "RWY @SFC ALL PARTS WET.",
           "ordinal": 15,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY.",
+          "ordinal": 16,
           "enabled": false
         }
       ],
