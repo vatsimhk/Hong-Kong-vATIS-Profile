@@ -337,7 +337,7 @@
         },
         {
           "id": "f8841903-7770-45dc-b7a7-e642909b5943",
-          "name": "07 3RS",
+          "name": "3RS 07",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 07C [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
@@ -347,9 +347,9 @@
         },
         {
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
-          "name": "25 3RS",
+          "name": "3RS 25",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25C [WIND] @W25L [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25L [WIND] @W25C [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -572,9 +572,9 @@
           "voice": "WIND RUNWAY ZERO SEVEN RIGHT"
         },
         {
-          "variableName": "W25L",
-          "text": "WIND RWY 25L",
-          "voice": "WIND RUNWAY TWO FIVE LEFT"
+          "variableName": "W25C",
+          "text": "RWY 25C",
+          "voice": "WIND RUNWAY TWO FIVE Centre"
         }
       ],
       "airportConditionDefinitions": [
@@ -997,7 +997,7 @@
           "name": "3RS 25",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25R [WIND] @W25L [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25L [WIND] @W25R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1176,13 +1176,13 @@
         },
         {
           "variableName": "W7R",
-          "text": "WIND RWY 07R",
+          "text": "RWY 07R",
           "voice": "WIND RUNWAY ZERO SEVEN RIGHT"
         },
         {
-          "variableName": "W25L",
-          "text": "WIND RWY 25L",
-          "voice": "WIND RUNWAY TWO FIVE LEFT"
+          "variableName": "W25R",
+          "text": "RWY 25R",
+          "voice": "WIND RUNWAY TWO FIVE RIGHT"
         },
         {
           "variableName": "APCH",
