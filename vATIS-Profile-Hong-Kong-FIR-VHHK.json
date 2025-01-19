@@ -625,22 +625,32 @@
         },
         {
           "text": "RWY 25L IS NON OPERATIONAL.",
-          "ordinal": 9,
+          "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET.",
+          "text": "@EXP RWY 07R AFTER 0600Z.",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY.",
+          "text": "@EXP RWY 25L AFTER 0600Z.",
           "ordinal": 12,
           "enabled": false
         },
         {
           "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS.",
           "ordinal": 13,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS WET.",
+          "ordinal": 14,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY.",
+          "ordinal": 15,
           "enabled": false
         }
       ],
@@ -1222,69 +1232,84 @@
           "enabled": false
         },
         {
-          "text": "RWY 07R IS NON OPERATIONAL.",
+          "text": "ARRIVALS, RWY 25L.",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25L.",
+          "text": "ARRIVALS, RWY 25C.",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25C.",
+          "text": "ARRIVALS, RWY 25R.",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25R.",
+          "text": "ARRIVALS, RWY 25L. AND RWY 25R.",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25L. AND RWY 25R.",
+          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R.",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R.",
+          "text": "@EXP RWY 07L AFTER 0600Z.",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "@RNP @APCH IS @AVBL ON @REQ.",
+          "text": "@EXP RWY 25R AFTER 0600Z.",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "RWY 25L IS NON OPERATIONAL.",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R.",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET.",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L.",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY.",
+          "text": "@RNP @APCH IS @AVBL ON @REQ.",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R.",
+          "text": "RWY 07R IS NON OPERATIONAL.",
           "ordinal": 16,
+          "enabled": false
+        },
+        {
+          "text": "RWY 25L IS NON OPERATIONAL.",
+          "ordinal": 17,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS WET.",
+          "ordinal": 18,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY.",
+          "ordinal": 19,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "EXP SIG TAILWIND ON BASELEG.",
+          "text": "@EXP @SIG TAILWIND ON BASELEG.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "CB IN APCH.",
+          "text": "@CB IN @APCH.",
           "ordinal": 2,
           "enabled": false
         }
