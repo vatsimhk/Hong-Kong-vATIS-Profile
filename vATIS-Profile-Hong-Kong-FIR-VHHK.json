@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025011801,
+  "updateSerial": 2025012001,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -337,7 +337,7 @@
         },
         {
           "id": "f8841903-7770-45dc-b7a7-e642909b5943",
-          "name": "07 3RS",
+          "name": "3RS 07",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 07C [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
@@ -347,9 +347,9 @@
         },
         {
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
-          "name": "25 3RS",
+          "name": "3RS 25",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25C [WIND] @W25L [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25L [WIND] @W25C [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -572,75 +572,90 @@
           "voice": "WIND RUNWAY ZERO SEVEN RIGHT"
         },
         {
-          "variableName": "W25L",
-          "text": "WIND RWY 25L",
-          "voice": "WIND RUNWAY TWO FIVE LEFT"
+          "variableName": "W25C",
+          "text": "RWY 25C",
+          "voice": "WIND RUNWAY TWO FIVE Centre"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "DEPARTURES, RWY 07L.",
+          "text": "DEPARTURES, RWY 07L",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 07C.",
+          "text": "DEPARTURES, RWY 07C",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 07R.",
+          "text": "DEPARTURES, RWY 07R",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 07C. AND RWY 07R.",
+          "text": "DEPARTURES, RWY 07C. AND RWY 07R",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "RWY 07R IS NON OPERATIONAL.",
+          "text": "RWY 07R IS NON OPERATIONAL",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 25L.",
+          "text": "DEPARTURES, RWY 25L",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 25C.",
+          "text": "DEPARTURES, RWY 25C",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 25R.",
+          "text": "DEPARTURES, RWY 25R",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY25L. AND RWY 25C.",
+          "text": "DEPARTURES, RWY25L. AND RWY 25C",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "RWY 25L IS NON OPERATIONAL.",
-          "ordinal": 9,
+          "text": "RWY 25L IS NON OPERATIONAL",
+          "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET.",
+          "text": "@EXP RWY 07R AFTER 0600Z",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY.",
+          "text": "@EXP RWY 07C AFTER 1500Z",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS.",
+          "text": "@EXP RWY 25C AFTER 1500Z",
           "ordinal": 13,
+          "enabled": false
+        },
+        {
+          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS",
+          "ordinal": 14,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS WET",
+          "ordinal": 15,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY",
+          "ordinal": 16,
           "enabled": false
         }
       ],
@@ -997,7 +1012,7 @@
           "name": "3RS 25",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25R [WIND] @W25L [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND] WIND RWY 25L [WIND] @W25R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1176,13 +1191,13 @@
         },
         {
           "variableName": "W7R",
-          "text": "WIND RWY 07R",
+          "text": "RWY 07R",
           "voice": "WIND RUNWAY ZERO SEVEN RIGHT"
         },
         {
-          "variableName": "W25L",
-          "text": "WIND RWY 25L",
-          "voice": "WIND RUNWAY TWO FIVE LEFT"
+          "variableName": "W25R",
+          "text": "RWY 25R",
+          "voice": "WIND RUNWAY TWO FIVE RIGHT"
         },
         {
           "variableName": "APCH",
@@ -1197,94 +1212,109 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "ARRIVALS, RWY 07L.",
+          "text": "ARRIVALS, RWY 07L",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 07C.",
+          "text": "ARRIVALS, RWY 07C",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 07R.",
+          "text": "ARRIVALS, RWY 07R",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 07L. AND RWY 07R.",
+          "text": "ARRIVALS, RWY 07L. AND RWY 07R",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "@EXP ILS @APCH.",
+          "text": "@EXP ILS @APCH",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "RWY 07R IS NON OPERATIONAL.",
+          "text": "ARRIVALS, RWY 25L",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25L.",
+          "text": "ARRIVALS, RWY 25C",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25C.",
+          "text": "ARRIVALS, RWY 25R",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25R.",
+          "text": "ARRIVALS, RWY 25L. AND RWY 25R",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25L. AND RWY 25R.",
+          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R.",
+          "text": "@EXP RWY 07L AFTER 0600Z",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "@RNP @APCH IS @AVBL ON @REQ.",
+          "text": "@EXP RWY 25R AFTER 0600Z",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "RWY 25L IS NON OPERATIONAL.",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET.",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY.",
+          "text": "@RNP @APCH IS @AVBL ON @REQ",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R.",
+          "text": "RWY 07R IS NON OPERATIONAL",
           "ordinal": 16,
+          "enabled": false
+        },
+        {
+          "text": "RWY 25L IS NON OPERATIONAL",
+          "ordinal": 17,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS WET",
+          "ordinal": 18,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY",
+          "ordinal": 19,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "EXP SIG TAILWIND ON BASELEG.",
+          "text": "@EXP @SIG TAILWIND ON BASELEG",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "CB IN APCH.",
+          "text": "@CB IN @APCH",
           "ordinal": 2,
           "enabled": false
         }
