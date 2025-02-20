@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -977,7 +977,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -1642,7 +1642,7 @@
         "notams": {
           "template": {
             "text": "{notams}",
-            "voice": "{notams}."
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
