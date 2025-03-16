@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025022001,
+  "updateSerial": 2025031601,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -458,14 +458,14 @@
           "voice": "BACK LOG"
         },
         {
-          "variableName": "07CR",
-          "text": "07C/R",
-          "voice": "ZERO SEVEN CENTRE, AND ZERO SEVEN RIGHT"
+          "variableName": "RWY07CR",
+          "text": "RWY 07C/R",
+          "voice": "RUNWAY ZERO SEVEN CENTRE, AND ZERO SEVEN RIGHT"
         },
         {
-          "variableName": "25LC",
-          "text": "25L/C",
-          "voice": "TWO FIVE LEFT, AND TWO FIVE CENTRE"
+          "variableName": "RWY25CL",
+          "text": "RWY 25C/L",
+          "voice": "RUNWAY TWO FIVE CENTRE, AND TWO FIVE LEFT"
         },
         {
           "variableName": "ARR",
@@ -600,7 +600,7 @@
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY 07C. AND RWY 07R",
+          "text": "DEPARTURES, @RWY07CR",
           "ordinal": 4,
           "enabled": false
         },
@@ -625,7 +625,7 @@
           "enabled": false
         },
         {
-          "text": "DEPARTURES, RWY25L. AND RWY 25C",
+          "text": "DEPARTURES, @RWY25CL",
           "ordinal": 9,
           "enabled": false
         },
@@ -697,8 +697,8 @@
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust}"
+              "text": "WIND {wind_dir}/{wind_spd}KT MAX{wind_gust}",
+              "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variable": {
@@ -709,8 +709,8 @@
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB{wind_spd}G{wind_gust}KT",
-              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "text": "WIND VRB{wind_spd}KT MAX{wind_gust}",
+              "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
@@ -1107,14 +1107,14 @@
           "voice": "INFORMATION"
         },
         {
-          "variableName": "07LR",
-          "text": "07L/R",
-          "voice": "ZERO SEVEN LEFT, AND ZERO SEVEN RIGHT"
+          "variableName": "RWY07LR",
+          "text": "RWY 07L/R",
+          "voice": "RUNWAY ZERO SEVEN LEFT, AND ZERO SEVEN RIGHT"
         },
         {
-          "variableName": "25LR",
-          "text": "25L/R",
-          "voice": "TWO FIVE LEFT, AND TWO FIVE RIGHT"
+          "variableName": "RWY25RL",
+          "text": "RWY 25R/L",
+          "voice": "RUNWAY TWO FIVE RIGHT, AND TWO FIVE LEFT"
         },
         {
           "variableName": "GP",
@@ -1239,7 +1239,7 @@
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 07L. AND RWY 07R",
+          "text": "ARRIVALS, @RWY07LR",
           "ordinal": 4,
           "enabled": false
         },
@@ -1249,73 +1249,78 @@
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25L",
+          "text": "@EXP ILS @APCH @RWY07LR",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25C",
+          "text": "ARRIVALS, RWY 25L",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25R",
+          "text": "ARRIVALS, RWY 25C",
           "ordinal": 8,
           "enabled": false
         },
         {
-          "text": "ARRIVALS, RWY 25L. AND RWY 25R",
+          "text": "ARRIVALS, RWY 25R",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
+          "text": "ARRIVALS, @RWY25RL",
           "ordinal": 10,
           "enabled": false
         },
         {
-          "text": "@EXP RWY 07L AFTER 0600Z",
+          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "@EXP RWY 25R AFTER 0600Z",
+          "text": "@EXP RWY 07L AFTER 0600Z",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
+          "text": "@EXP RWY 25R AFTER 0600Z",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "@RNP @APCH IS @AVBL ON @REQ",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "RWY 07R IS NON OPERATIONAL",
+          "text": "@RNP @APCH IS @AVBL ON @REQ",
           "ordinal": 16,
           "enabled": false
         },
         {
-          "text": "RWY 25L IS NON OPERATIONAL",
+          "text": "RWY 07R IS NON OPERATIONAL",
           "ordinal": 17,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET",
+          "text": "RWY 25L IS NON OPERATIONAL",
           "ordinal": 18,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY",
+          "text": "RWY @SFC ALL PARTS WET",
           "ordinal": 19,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY",
+          "ordinal": 20,
           "enabled": false
         }
       ],
@@ -1362,8 +1367,8 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
-              "voice": "{wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust}"
+              "text": "{wind_dir}/{wind_spd}KT MAX{wind_gust}",
+              "voice": "{wind_dir} DEGREES {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variable": {
@@ -1374,8 +1379,8 @@
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
-              "voice": "VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "text": "VRB/{wind_spd}KT MAX{wind_gust}",
+              "voice": "VARIABLE AT {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
