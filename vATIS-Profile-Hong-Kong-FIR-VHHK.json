@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025031601,
+  "updateSerial": 2025040801,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -336,7 +336,7 @@
           "name": "NON-3RS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -346,7 +346,7 @@
           "name": "3RS 07",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 07C [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07C [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -355,7 +355,7 @@
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
           "name": "3RS 25",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 25L [WIND] @W25C [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25C [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1004,7 +1004,7 @@
           "name": "NON-3RS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1014,7 +1014,7 @@
           "name": "3RS 07",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 07L [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07L [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1024,7 +1024,7 @@
           "name": "3RS 25",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 25L [WIND] @W25R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
