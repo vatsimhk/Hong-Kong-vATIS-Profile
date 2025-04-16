@@ -635,7 +635,7 @@
           "enabled": false
         },
         {
-          "text": "@EXP RWY 07R AFTER 0600Z",
+          "text": "@EXP RWY 07R AFTER 0800Z",
           "ordinal": 11,
           "enabled": false
         },
@@ -1092,6 +1092,11 @@
           "voice": "R-NAV"
         },
         {
+          "variableName": "SFC",
+          "text": "SFC",
+          "voice": "SURFACE"
+        },
+        {
           "variableName": "RNP",
           "text": "RNP",
           "voice": "R-AN-PEE"
@@ -1279,12 +1284,12 @@
           "enabled": false
         },
         {
-          "text": "@EXP RWY 07L AFTER 0600Z",
+          "text": "@EXP RWY 07L AFTER 0800Z",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "@EXP RWY 25R AFTER 0600Z",
+          "text": "@EXP RWY 25R AFTER 0800Z",
           "ordinal": 13,
           "enabled": false
         },
