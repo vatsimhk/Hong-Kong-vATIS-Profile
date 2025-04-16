@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025041601,
+  "updateSerial": 2025041602
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -640,28 +640,33 @@
           "enabled": false
         },
         {
-          "text": "@EXP RWY 07C AFTER 1500Z",
+          "text": "@EXP RWY 25L AFTER 0800Z",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "@EXP RWY 25C AFTER 1500Z",
+          "text": "@EXP RWY 07C AFTER 1500Z",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS",
+          "text": "@EXP RWY 25C AFTER 1500Z",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET",
+          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY",
+          "text": "RWY @SFC ALL PARTS WET",
           "ordinal": 16,
+          "enabled": false
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY",
+          "ordinal": 17,
           "enabled": false
         }
       ],
