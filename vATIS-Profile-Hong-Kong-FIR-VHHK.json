@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025041601,
+  "updateSerial": 2025042001,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -79,8 +79,8 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "text": "{visibility}",
+            "voice": "{visibility}"
           }
         },
         "presentWeather": {
@@ -336,7 +336,7 @@
           "name": "NON-3RS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND [WIND] @VIS [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -346,7 +346,7 @@
           "name": "3RS 07",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 07C [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 07C [WIND] @W7R [WIND] @VIS RWY 07C [VIS] RWY 07R [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -355,7 +355,7 @@
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
           "name": "3RS 25",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 25L [WIND] @W25C [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 25L [WIND] @W25C [WIND] @VIS RWY 25L [VIS] RWY 25C [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -485,7 +485,7 @@
         {
           "variableName": "25CL",
           "text": "25C/L",
-          "voice": "TWO FIVE CENTRE, AND TWO FIVE RIGHT"
+          "voice": "TWO FIVE CENTRE, AND TWO FIVE LEFT"
         },
         {
           "variableName": "E",
@@ -581,6 +581,11 @@
           "variableName": "W25C",
           "text": "RWY 25C",
           "voice": "WIND RUNWAY TWO FIVE Centre"
+        },
+        {
+          "variableName": "VIS",
+          "text": "VIS",
+          "voice": "VISIBILITY"
         }
       ],
       "airportConditionDefinitions": [
@@ -668,6 +673,11 @@
           "text": "RWY @SFC ALL PARTS DRY",
           "ordinal": 17,
           "enabled": false
+        },
+        {
+          "text": "@EXP @SIG @WS @FCST",
+          "ordinal": 18,
+          "enabled": false
         }
       ],
       "notamDefinitions": []
@@ -746,8 +756,8 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "VIS {visibility}",
-            "voice": "VISIBILITY {visibility}"
+            "text": "{visibility}",
+            "voice": "{visibility}"
           }
         },
         "presentWeather": {
@@ -1009,7 +1019,7 @@
           "name": "NON-3RS",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND [WIND] @VIS [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1019,7 +1029,7 @@
           "name": "3RS 07",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 07L [WIND] @W7R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 07L [WIND] @W7R [WIND] @VIS RWY 07L [VIS] RWY 07R [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1029,7 +1039,7 @@
           "name": "3RS 25",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 25L [WIND] @W25R [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME]. [ARPT_COND]. WIND RWY 25L [WIND] @W25R [WIND] @VIS RWY 25L [VIS] RWY 25R [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1230,6 +1240,11 @@
           "variableName": "AVBL",
           "text": "AVBL",
           "voice": "AVAILABLE"
+        },
+        {
+          "variableName": "VIS",
+          "text": "VIS",
+          "voice": "VISIBILITY"
         }
       ],
       "airportConditionDefinitions": [
@@ -1284,55 +1299,65 @@
           "enabled": false
         },
         {
-          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
+          "text": "@EXP ILS @APCH, RWY 25L",
           "ordinal": 11,
           "enabled": false
         },
         {
-          "text": "@EXP RWY 07L AFTER 0800Z",
+          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
           "ordinal": 12,
           "enabled": false
         },
         {
-          "text": "@EXP RWY 25R AFTER 0800Z",
-          "ordinal": 13,
-          "enabled": false
-        },
-        {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
+          "text": "@EXP RWY 07L AFTER 0800Z",
           "ordinal": 14,
           "enabled": false
         },
         {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
+          "text": "@EXP RWY 25R AFTER 0800Z",
           "ordinal": 15,
           "enabled": false
         },
         {
-          "text": "@RNP @APCH IS @AVBL ON @REQ",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
           "ordinal": 16,
           "enabled": false
         },
         {
-          "text": "RWY 07R IS NON OPERATIONAL",
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
           "ordinal": 17,
           "enabled": false
         },
         {
-          "text": "RWY 25L IS NON OPERATIONAL",
+          "text": "@RNP @APCH IS @AVBL ON @REQ, RWY 25R",
+          "ordinal": 13,
+          "enabled": false
+        },
+        {
+          "text": "RWY 07R IS NON OPERATIONAL",
           "ordinal": 18,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET",
+          "text": "RWY 25L IS NON OPERATIONAL",
           "ordinal": 19,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY",
+          "text": "RWY @SFC ALL PARTS WET",
           "ordinal": 20,
           "enabled": false
-        }
+        },
+        {
+          "text": "RWY @SFC ALL PARTS DRY",
+          "ordinal": 21,
+          "enabled": false
+        },
+        {
+          "text": "@EXP @SIG @WS @FCST",
+          "ordinal": 22,
+          "enabled": false
+        },
       ],
       "notamDefinitions": [
         {
