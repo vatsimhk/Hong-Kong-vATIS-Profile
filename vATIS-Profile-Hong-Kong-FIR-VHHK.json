@@ -1357,7 +1357,7 @@
           "text": "@EXP @SIG @WS @FCST",
           "ordinal": 22,
           "enabled": false
-        },
+        }
       ],
       "notamDefinitions": [
         {
