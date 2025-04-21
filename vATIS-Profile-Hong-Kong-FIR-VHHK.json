@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025042001,
+  "updateSerial": 2025042101,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -74,8 +74,8 @@
           "southWest": "to the south-west",
           "west": "to the west",
           "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityVoice": "10 kilometers or more",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
@@ -751,8 +751,8 @@
           "southWest": "to the south-west",
           "west": "to the west",
           "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "unlimitedVisibilityVoice": "10 kilometers or more",
+          "unlimitedVisibilityText": "10KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
@@ -1270,42 +1270,42 @@
         },
         {
           "text": "@EXP ILS @APCH",
-          "ordinal": 5,
+          "ordinal": 13,
           "enabled": false
         },
         {
           "text": "@EXP ILS @APCH @RWY07LR",
-          "ordinal": 6,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "ARRIVALS, RWY 25L",
-          "ordinal": 7,
+          "ordinal": 6 ,
           "enabled": false
         },
         {
           "text": "ARRIVALS, RWY 25C",
-          "ordinal": 8,
+          "ordinal": 7,
           "enabled": false
         },
         {
           "text": "ARRIVALS, RWY 25R",
-          "ordinal": 9,
+          "ordinal": 8,
           "enabled": false
         },
         {
           "text": "ARRIVALS, @RWY25RL",
-          "ordinal": 10,
+          "ordinal": 9,
           "enabled": false
         },
         {
           "text": "@EXP ILS @APCH, RWY 25L",
-          "ordinal": 11,
+          "ordinal": 10,
           "enabled": false
         },
         {
           "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
-          "ordinal": 12,
+          "ordinal": 11,
           "enabled": false
         },
         {
@@ -1330,7 +1330,7 @@
         },
         {
           "text": "@RNP @APCH IS @AVBL ON @REQ, RWY 25R",
-          "ordinal": 13,
+          "ordinal": 12,
           "enabled": false
         },
         {
