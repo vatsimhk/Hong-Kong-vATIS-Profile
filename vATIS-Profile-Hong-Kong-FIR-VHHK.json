@@ -361,7 +361,7 @@
       "presets": [
         {
           "id": "9d497203-fe37-456f-8af5-cfdb28a8ba9d",
-          "name": "Segregate/Single mode",
+          "name": "Segregated/Single mode",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
@@ -1072,7 +1072,7 @@
       "presets": [
         {
           "id": "54f37ff5-0442-478c-8f16-315f3b4ac56b",
-          "name": "Segregate/Single mode",
+          "name": "Segregated/Single mode",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
