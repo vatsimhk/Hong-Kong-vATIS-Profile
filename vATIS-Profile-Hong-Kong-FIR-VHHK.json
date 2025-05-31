@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025042701,
+  "updateSerial": 2025053001,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -84,10 +84,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "moderate",
-          "heavyIntensity": "heavy",
-          "vicinity": "in vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -208,6 +204,38 @@
             "FZ": {
               "text": "FZ",
               "spoken": "freezing"
+            },
+            "SHRA": {
+              "text": "SHRA",
+              "spoken": "showers of rain"
+            },
+            "TSRA": {
+              "text": "TSRA",
+              "spoken": "Thunderstorm With Rain"
+            },
+            "-RA": {
+              "text": "FBL RA",
+              "spoken": "light rain"
+            },
+            "-SHRA": {
+              "text": "FBL SHRA",
+              "spoken": "light showers of rain"
+            },
+            "-TSRA": {
+              "text": "FBL TSRA",
+              "spoken": "Thunderstorm With Light Rain"
+            },
+            "+RA": {
+              "text": "HVY RA",
+              "spoken": "Heavy Rain"
+            },
+            "+TSRA": {
+              "text": "HVY TSRA",
+              "spoken": "Thunderstorm With Heavy Rain"
+            },
+            "+SHRA": {
+              "text": "HVY SHRA",
+              "spoken": "heavy showers of rain"
             }
           },
           "template": {
@@ -333,10 +361,10 @@
       "presets": [
         {
           "id": "9d497203-fe37-456f-8af5-cfdb28a8ba9d",
-          "name": "Segregate/Single mode",
+          "name": "Segregated/Single mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -346,7 +374,7 @@
           "name": "07 ADM mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -355,7 +383,7 @@
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
           "name": "25 ADM mode",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -761,10 +789,6 @@
           }
         },
         "presentWeather": {
-          "lightIntensity": "light",
-          "moderateIntensity": "moderate",
-          "heavyIntensity": "heavy",
-          "vicinity": "vicinity",
           "presentWeatherTypes": {
             "DZ": {
               "text": "DZ",
@@ -885,6 +909,38 @@
             "FZ": {
               "text": "FZ",
               "spoken": "freezing"
+            },
+            "SHRA": {
+              "text": "SHRA",
+              "spoken": "showers of rain"
+            },
+            "TSRA": {
+              "text": "TSRA",
+              "spoken": "Thunderstorm With Rain"
+            },
+            "-RA": {
+              "text": "FBL RA",
+              "spoken": "light rain"
+            },
+            "-SHRA": {
+              "text": "FBL SHRA",
+              "spoken": "light showers of rain"
+            },
+            "-TSRA": {
+              "text": "FBL TSRA",
+              "spoken": "Thunderstorm With Light Rain"
+            },
+            "+RA": {
+              "text": "HVY RA",
+              "spoken": "Heavy Rain"
+            },
+            "+TSRA": {
+              "text": "HVY TSRA",
+              "spoken": "Thunderstorm With Heavy Rain"
+            },
+            "+SHRA": {
+              "text": "HVY SHRA",
+              "spoken": "heavy showers of rain"
             }
           },
           "template": {
@@ -1016,10 +1072,10 @@
       "presets": [
         {
           "id": "54f37ff5-0442-478c-8f16-315f3b4ac56b",
-          "name": "Segregate/Single mode",
+          "name": "Segregated/Single mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1029,7 +1085,7 @@
           "name": "07 ADM mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1039,7 +1095,7 @@
           "name": "25 ADM mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1714,7 +1770,7 @@
           "name": "16",
           "airportConditions": "",
           "notams": "",
-          "template": "THIS IS [FACILITY] @ATIS [ATIS_CODE] [OBS_TIME]. RWY 16 IN USE. WIND RWY 16 TOUCHDOWN ZONE [WIND], STOP END [WIND]. @VS RWY 16 TOUCHDOWN ZONE [VIS], MID POINT [VIS], STOP END [VIS]. [CLOUDS] [TEMP] [DEW] [PRESSURE]. [TREND]. [NOTAMS] ",
+          "template": "THIS IS [FACILITY] @ATIS [ATIS_CODE] [OBS_TIME]. RWY 16 IN USE. WIND RWY 16 TOUCHDOWN ZONE [WIND], STOP END [WIND]. @VS RWY 16 TOUCHDOWN ZONE [VIS], MID POINT [VIS], STOP END [VIS]. [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
@@ -1722,7 +1778,7 @@
         {
           "id": "519e3d50-d14d-48ab-99f8-79326f826e70",
           "name": "34",
-          "template": "THIS IS [FACILITY] @ATIS [ATIS_CODE] [OBS_TIME]. RWY 34 IN USE. WIND RWY 34 TOUCHDOWN ZONE [WIND], STOP END [WIND]. @VS RWY 34 TOUCHDOWN ZONE [VIS], MID POINT [VIS], STOP END [VIS]. [CLOUDS] [TEMP] [DEW] [PRESSURE]. [TREND]. [NOTAMS] ",
+          "template": "THIS IS [FACILITY] @ATIS [ATIS_CODE] [OBS_TIME]. RWY 34 IN USE. WIND RWY 34 TOUCHDOWN ZONE [WIND], STOP END [WIND]. @VS RWY 34 TOUCHDOWN ZONE [VIS], MID POINT [VIS], STOP END [VIS]. [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE]. [TREND]. [NOTAMS] ",
           "externalGenerator": {
             "enabled": false
           }
