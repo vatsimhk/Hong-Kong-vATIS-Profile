@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025053001,
+  "updateSerial": 2025061401,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -364,7 +364,7 @@
           "name": "Segregated/Single mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -374,7 +374,7 @@
           "name": "07 ADM mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -383,7 +383,7 @@
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
           "name": "25 ADM mode",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -740,8 +740,8 @@
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}KT MAX{wind_gust}",
-              "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
+              "text": "{wind_dir}/{wind_spd}KT MAX{wind_gust}",
+              "voice": "{wind_dir} DEGREES {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variable": {
@@ -752,8 +752,8 @@
           },
           "variableGust": {
             "template": {
-              "text": "WIND VRB{wind_spd}KT MAX{wind_gust}",
-              "voice": "WIND VARIABLE AT {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
+              "text": "VRB{wind_spd}KT MAX{wind_gust}",
+              "voice": "VARIABLE AT {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
@@ -766,7 +766,7 @@
             "calmWindSpeed": 2,
             "template": {
               "text": "{wind}",
-              "voice": "WIND CALM"
+              "voice": "CALM"
             }
           }
         },
@@ -1075,7 +1075,7 @@
           "name": "Segregated/Single mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1085,7 +1085,7 @@
           "name": "07 ADM mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1095,7 +1095,7 @@
           "name": "25 ADM mode",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND].\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
