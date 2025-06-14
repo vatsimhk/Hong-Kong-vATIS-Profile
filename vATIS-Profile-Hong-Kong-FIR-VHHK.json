@@ -1301,6 +1301,11 @@
           "variableName": "VS",
           "text": "VIS",
           "voice": "VISIBILITY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
         }
       ],
       "airportConditionDefinitions": [
@@ -1365,58 +1370,63 @@
           "enabled": false
         },
         {
-          "text": "@EXP RWY 07L AFTER 0800Z",
-          "ordinal": 15,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 25R AFTER 0800Z",
-          "ordinal": 16,
-          "enabled": false
-        },
-        {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
-          "ordinal": 17,
-          "enabled": false
-        },
-        {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
-          "ordinal": 18,
-          "enabled": false
-        },
-        {
-          "text": "@RNP @APCH IS @AVBL ON @REQ, RWY 25R",
+          "text": "@EXP @RNP @Y @APCH, RWY 25R",
           "ordinal": 13,
           "enabled": false
         },
         {
-          "text": "@RNP @APCH IS @AVBL ON @REQ",
-          "ordinal": 14,
+          "text": "@EXP RWY 07L AFTER 0800Z",
+          "ordinal": 16,
           "enabled": false
         },
         {
-          "text": "RWY 07R IS NON OPERATIONAL",
+          "text": "@EXP RWY 25R AFTER 0800Z",
+          "ordinal": 17,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
+          "ordinal": 18,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
           "ordinal": 19,
           "enabled": false
         },
         {
-          "text": "RWY 25L IS NON OPERATIONAL",
+          "text": "@RNP @APCH IS @AVBL ON @REQ, RWY 25R",
+          "ordinal": 14,
+          "enabled": false
+        },
+        {
+          "text": "@RNP @APCH IS @AVBL ON @REQ",
+          "ordinal": 15,
+          "enabled": false
+        },
+        {
+          "text": "RWY 07R IS NON OPERATIONAL",
           "ordinal": 20,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS WET",
+          "text": "RWY 25L IS NON OPERATIONAL",
           "ordinal": 21,
           "enabled": false
         },
         {
-          "text": "RWY @SFC ALL PARTS DRY",
+          "text": "RWY @SFC ALL PARTS WET",
           "ordinal": 22,
           "enabled": false
         },
         {
-          "text": "@SIG @WS @FCST",
+          "text": "RWY @SFC ALL PARTS DRY",
           "ordinal": 23,
+          "enabled": false
+        },
+        {
+          "text": "@SIG @WS @FCST",
+          "ordinal": 24,
           "enabled": false
         }
       ],
