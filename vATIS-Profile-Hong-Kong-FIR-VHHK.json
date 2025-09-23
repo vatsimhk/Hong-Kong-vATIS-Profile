@@ -35,8 +35,8 @@
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
-              "voice": "{wind_dir} DEGREES {wind_spd} {wind_unit} GUSTS {wind_gust}"
+              "text": "{wind_dir}/{wind_spd}KT MAX{wind_gust}",
+              "voice": "{wind_dir} DEGREES {wind_spd} {wind_unit} MAXIMUM {wind_gust}"
             }
           },
           "variable": {
@@ -47,8 +47,8 @@
           },
           "variableGust": {
             "template": {
-              "text": "VRB/{wind_spd}G{wind_gust}KT",
-              "voice": "VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+              "text": "VRB/{wind_spd}KT MAX{wind_gust}",
+              "voice": "VARIABLE AT {wind_spd} MAXIMUM {wind_gust}"
             }
           },
           "variableDirection": {
