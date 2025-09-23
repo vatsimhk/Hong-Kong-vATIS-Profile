@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025061401,
+  "updateSerial": 2025092401,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -361,7 +361,7 @@
       "presets": [
         {
           "id": "9d497203-fe37-456f-8af5-cfdb28a8ba9d",
-          "name": "Segregated/Single mode",
+          "name": "Segregated/Single",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
@@ -371,7 +371,7 @@
         },
         {
           "id": "f8841903-7770-45dc-b7a7-e642909b5943",
-          "name": "07 ADM mode",
+          "name": "07 ADM",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
@@ -381,7 +381,7 @@
         },
         {
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
-          "name": "25 ADM mode",
+          "name": "25 ADM",
           "notams": "",
           "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
           "externalGenerator": {
@@ -423,7 +423,7 @@
         {
           "variableName": "MET_REPORT",
           "text": "MET REPORT",
-          "voice": " "
+          "voice": "MET REPORT"
         },
         {
           "variableName": "MAINT",
@@ -473,7 +473,7 @@
         {
           "variableName": "MINS",
           "text": "MINS",
-          "voice": "MINUTE"
+          "voice": "MINUTES"
         },
         {
           "variableName": "WX",
@@ -614,6 +614,56 @@
           "variableName": "VS",
           "text": "VIS",
           "voice": "VISIBILITY"
+        },
+        {
+          "variableName": "REQ",
+          "text": "REQ",
+          "voice": "REQUEST"
+        },
+        {
+          "variableName": "GP",
+          "text": "GP",
+          "voice": "GLIDE PATH"
+        },
+        {
+          "variableName": "AVBL",
+          "text": "AVBL",
+          "voice": "AVAILABLE"
+        },
+        {
+          "variableName": "SCT",
+          "text": "SCT",
+          "voice": "SCATTERED"
+        },
+        {
+          "variableName": "BKN",
+          "text": "BKN",
+          "voice": "BROKEN"
+        },
+        {
+          "variableName": "OVC",
+          "text": "OVC",
+          "voice": "OVERCAST"
+        },
+        {
+          "variableName": "MAX",
+          "text": "MAX",
+          "voice": "MAXIMUM"
+        },
+        {
+          "variableName": "MIN",
+          "text": "MIN",
+          "voice": "MINIMUM"
+        },
+        {
+          "variableName": "DLA",
+          "text": "DLA",
+          "voice": "DELAY"
+        },
+        {
+          "variableName": "CB",
+          "text": "CB",
+          "voice": "CUMULONIMBUS"
         }
       ],
       "airportConditionDefinitions": [
@@ -1072,7 +1122,7 @@
       "presets": [
         {
           "id": "54f37ff5-0442-478c-8f16-315f3b4ac56b",
-          "name": "Segregated/Single mode",
+          "name": "Segregated/Single",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
@@ -1082,7 +1132,7 @@
         },
         {
           "id": "819720e5-9235-4a6c-9da4-c9957a8f05cc",
-          "name": "07 ADM mode",
+          "name": "07 ADM",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
@@ -1092,7 +1142,7 @@
         },
         {
           "id": "cce2801b-cf49-4fb1-af56-6cd751ba0f01",
-          "name": "25 ADM mode",
+          "name": "25 ADM",
           "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND].\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
@@ -1306,7 +1356,47 @@
           "variableName": "Y",
           "text": "Y",
           "voice": "YANKEE"
-        }
+        },
+        {
+          "variableName": "SCT",
+          "text": "SCT",
+          "voice": "SCATTERED"
+        },
+        {
+          "variableName": "BKN",
+          "text": "BKN",
+          "voice": "BROKEN"
+        },
+        {
+          "variableName": "OVC",
+          "text": "OVC",
+          "voice": "OVERCAST"
+        },
+        {
+          "variableName": "MAX",
+          "text": "MAX",
+          "voice": "MAXIMUM"
+        },
+        {
+          "variableName": "MIN",
+          "text": "MIN",
+          "voice": "MINIMUM"
+        },
+        {
+          "variableName": "DLA",
+          "text": "DLA",
+          "voice": "DELAY"
+        },
+        {
+          "variableName": "CB",
+          "text": "CB",
+          "voice": "CUMULONIMBUS"
+        },
+        {
+          "variableName": "REP",
+          "text": "REP",
+          "voice": "REPORTED"
+        },
       ],
       "airportConditionDefinitions": [
         {
