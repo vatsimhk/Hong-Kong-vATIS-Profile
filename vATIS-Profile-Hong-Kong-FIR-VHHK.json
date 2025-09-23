@@ -1190,7 +1190,7 @@
         {
           "variableName": "MET_REPORT",
           "text": "MET REPORT",
-          "voice": " "
+          "voice": "MET REPORT"
         },
         {
           "variableName": "MAINT",
@@ -1397,6 +1397,11 @@
           "text": "REP",
           "voice": "REPORTED"
         },
+        {
+          "variableName": "MINS",
+          "text": "MINS",
+          "voice": "MINUTES"
+        }
       ],
       "airportConditionDefinitions": [
         {
