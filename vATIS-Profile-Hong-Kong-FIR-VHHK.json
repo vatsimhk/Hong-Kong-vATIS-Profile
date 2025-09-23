@@ -669,7 +669,12 @@
           "variableName": "KTS",
           "text": "KTS",
           "voice": "KNOTS"
-        }
+        },
+        {
+          "variableName": "SEV",
+          "text": "SEV",
+          "voice": "SEVERE"
+        } 
       ],
       "airportConditionDefinitions": [
         {
@@ -1421,7 +1426,12 @@
           "variableName": "TURB",
           "text": "TURB",
           "voice": "TURBULENCE"
-        }
+        },
+        {
+          "variableName": "SEV",
+          "text": "SEV",
+          "voice": "SEVERE"
+        } 
       ],
       "airportConditionDefinitions": [
         {
