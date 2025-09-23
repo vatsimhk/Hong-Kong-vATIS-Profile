@@ -664,6 +664,11 @@
           "variableName": "CB",
           "text": "CB",
           "voice": "CUMULONIMBUS"
+        },
+        {
+          "variableName": "KTS",
+          "text": "KTS",
+          "voice": "KNOTS"
         }
       ],
       "airportConditionDefinitions": [
@@ -1401,6 +1406,11 @@
           "variableName": "MINS",
           "text": "MINS",
           "voice": "MINUTES"
+        },
+        {
+          "variableName": "KTS",
+          "text": "KTS",
+          "voice": "KNOTS"
         }
       ],
       "airportConditionDefinitions": [
