@@ -1411,6 +1411,16 @@
           "variableName": "KTS",
           "text": "KTS",
           "voice": "KNOTS"
+        },
+        {
+          "variableName": "MOD",
+          "text": "MOD",
+          "voice": "MODERATE"
+        },
+        {
+          "variableName": "TURB",
+          "text": "TURB",
+          "voice": "TURBULENCE"
         }
       ],
       "airportConditionDefinitions": [
