@@ -323,7 +323,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter|hpa}HPA=",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} hecto pascals"
           }
         },
@@ -333,6 +333,15 @@
             "text": "TRANSITION LEVEL {trl}",
             "voice": "TRANSITION LEVEL {trl}"
           }
+        },
+        "trend": {
+          "nosigText": "",
+          "nosigVoice": "",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
         },
         "notams": {
           "template": {
@@ -364,7 +373,7 @@
           "name": "Segregated/Single",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]=\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -374,7 +383,7 @@
           "name": "07 ADM",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 07C [WIND] @W7R [WIND] @VS RWY 07C [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]=\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -383,7 +392,7 @@
           "id": "40284b27-f9f8-4bb9-bd63-350f3e7749e3",
           "name": "25 ADM",
           "notams": "",
-          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @DEP @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 25L [WIND] @W25C [WIND] @VS RWY 25L [VIS] RWY 25C [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]=\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -471,9 +480,9 @@
           "voice": "INFORMATION"
         },
         {
-          "variableName": "MINS",
-          "text": "MINS",
-          "voice": "MINUTES"
+          "variableName": "MNM",
+          "text": "MNM",
+          "voice": "MINIMUM"
         },
         {
           "variableName": "WX",
@@ -653,7 +662,7 @@
         {
           "variableName": "MIN",
           "text": "MIN",
-          "voice": "MINIMUM"
+          "voice": "MINUTES"
         },
         {
           "variableName": "DLA",
@@ -674,6 +683,16 @@
           "variableName": "SEV",
           "text": "SEV",
           "voice": "SEVERE"
+        },
+        {
+          "variableName": "MBST",
+          "text": "MBST",
+          "voice": "MICROBURST"
+        },
+        {
+          "variableName": "WDSPR",
+          "text": "WDSPR",
+          "voice": "WIDESPREAD"
         } 
       ],
       "airportConditionDefinitions": [
@@ -1088,7 +1107,7 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter|hpa}HPA=",
+            "text": "QNH {altimeter|hpa}HPA",
             "voice": "QNH {altimeter|hpa} hecto pascals"
           }
         },
@@ -1104,6 +1123,15 @@
             "text": "TRANSITION LEVEL {trl}",
             "voice": "TRANSITION LEVEL {trl}"
           }
+        },
+        "trend": {
+          "nosigText": "",
+          "nosigVoice": "",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
         },
         "notams": {
           "template": {
@@ -1135,7 +1163,7 @@
           "name": "Segregated/Single",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND [WIND] @VS [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]=\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1145,7 +1173,7 @@
           "name": "07 ADM",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 07L [WIND] @W7R [WIND] @VS RWY 07L [VIS] RWY 07R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]=\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1155,7 +1183,7 @@
           "name": "25 ADM",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]\r\n[NOTAMS]\r\n",
+          "template": "[FACILITY] @ARR @ATIS [ATIS_CODE] [OBS_TIME].\r\n[ARPT_COND]\r\nWIND RWY 25L [WIND] @W25R [WIND] @VS RWY 25L [VIS] RWY 25R [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [TREND]=\r\n[NOTAMS]\r\n",
           "externalGenerator": {
             "enabled": false
           }
@@ -1388,8 +1416,8 @@
           "voice": "MAXIMUM"
         },
         {
-          "variableName": "MIN",
-          "text": "MIN",
+          "variableName": "MNM",
+          "text": "MNM",
           "voice": "MINIMUM"
         },
         {
@@ -1408,8 +1436,8 @@
           "voice": "REPORTED"
         },
         {
-          "variableName": "MINS",
-          "text": "MINS",
+          "variableName": "MIN",
+          "text": "MIN",
           "voice": "MINUTES"
         },
         {
@@ -1431,7 +1459,22 @@
           "variableName": "SEV",
           "text": "SEV",
           "voice": "SEVERE"
-        } 
+        },
+        {
+          "variableName": "MBST",
+          "text": "MBST",
+          "voice": "MICROBURST"
+        },
+        {
+          "variableName": "WDSPR",
+          "text": "WDSPR",
+          "voice": "WIDESPREAD"
+        },
+        {
+          "variableName": "WX",
+          "text": "WX",
+          "voice": "WEATHER"
+        }
       ],
       "airportConditionDefinitions": [
         {
