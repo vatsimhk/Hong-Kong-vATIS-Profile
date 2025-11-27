@@ -693,7 +693,12 @@
           "variableName": "WDSPR",
           "text": "WDSPR",
           "voice": "WIDESPREAD"
-        } 
+        },
+        {
+          "variableName": "US",
+          "text": "U/S",
+          "voice": "UNSERVICEABLE"
+        }
       ],
       "airportConditionDefinitions": [
         {
@@ -1484,6 +1489,11 @@
           "variableName": "WX",
           "text": "WX",
           "voice": "WEATHER"
+        },
+        {
+          "variableName": "US",
+          "text": "U/S",
+          "voice": "UNSERVICEABLE"
         }
       ],
       "airportConditionDefinitions": [
