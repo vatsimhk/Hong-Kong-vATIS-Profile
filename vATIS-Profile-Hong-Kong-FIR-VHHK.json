@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025102802,
+  "updateSerial": 2025122101,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -350,7 +350,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "ACKNOWLEDGE INFO {letter} ON FIRST CTC.",
             "voice": "ACKNOWLEDGE INFORMATION {letter|word}, ON FIRST CONTACT."
@@ -698,6 +698,146 @@
           "variableName": "US",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
+        },
+        {
+          "variableName": "B",
+          "text": "B",
+          "voice": "BRAVO"
+        },
+        {
+          "variableName": "C",
+          "text": "C",
+          "voice": "CHARLIE"
+        },
+        {
+          "variableName": "D",
+          "text": "D",
+          "voice": "DELTA"
+        },
+        {
+          "variableName": "E",
+          "text": "E",
+          "voice": "ECHO"
+        },
+        {
+          "variableName": "F",
+          "text": "F",
+          "voice": "FOXTROT"
+        },
+        {
+          "variableName": "G",
+          "text": "G",
+          "voice": "GOLF"
+        },
+        {
+          "variableName": "H",
+          "text": "H",
+          "voice": "HOTEL"
+        },
+        {
+          "variableName": "I",
+          "text": "I",
+          "voice": "INDIA"
+        },
+        {
+          "variableName": "J",
+          "text": "J",
+          "voice": "JULIET"
+        },
+        {
+          "variableName": "K",
+          "text": "K",
+          "voice": "KILO"
+        },
+        {
+          "variableName": "L",
+          "text": "L",
+          "voice": "LIMA"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "MIKE"
+        },
+        {
+          "variableName": "N",
+          "text": "N",
+          "voice": "NOVEMBER"
+        },
+        {
+          "variableName": "O",
+          "text": "O",
+          "voice": "OSCAR"
+        },
+        {
+          "variableName": "P",
+          "text": "P",
+          "voice": "PAPA"
+        },
+        {
+          "variableName": "Q",
+          "text": "Q",
+          "voice": "QUEBEC"
+        },
+        {
+          "variableName": "R",
+          "text": "R",
+          "voice": "ROMEO"
+        },
+        {
+          "variableName": "S",
+          "text": "S",
+          "voice": "SIERA"
+        },
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TANGO"
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
+        },
+        {
+          "variableName": "V",
+          "text": "V",
+          "voice": "VICTOR"
+        },
+        {
+          "variableName": "W",
+          "text": "W",
+          "voice": "WHISKEY"
+        },
+        {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
+          "variableName": "APP",
+          "text": "APP",
+          "voice": "APPROACH"
+        },
+        {
+          "variableName": "CTR",
+          "text": "CTR",
+          "voice": "RADAR"
         }
       ],
       "airportConditionDefinitions": [
@@ -1145,7 +1285,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "ACKNOWLEDGE INFO {letter} ON FIRST CTC.",
             "voice": "ACKNOWLEDGE INFORMATION {letter|word}, ON FIRST CONTACT."
@@ -1494,6 +1634,146 @@
           "variableName": "US",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
+        },
+        {
+          "variableName": "B",
+          "text": "B",
+          "voice": "BRAVO"
+        },
+        {
+          "variableName": "C",
+          "text": "C",
+          "voice": "CHARLIE"
+        },
+        {
+          "variableName": "D",
+          "text": "D",
+          "voice": "DELTA"
+        },
+        {
+          "variableName": "E",
+          "text": "E",
+          "voice": "ECHO"
+        },
+        {
+          "variableName": "F",
+          "text": "F",
+          "voice": "FOXTROT"
+        },
+        {
+          "variableName": "G",
+          "text": "G",
+          "voice": "GOLF"
+        },
+        {
+          "variableName": "H",
+          "text": "H",
+          "voice": "HOTEL"
+        },
+        {
+          "variableName": "I",
+          "text": "I",
+          "voice": "INDIA"
+        },
+        {
+          "variableName": "J",
+          "text": "J",
+          "voice": "JULIET"
+        },
+        {
+          "variableName": "K",
+          "text": "K",
+          "voice": "KILO"
+        },
+        {
+          "variableName": "L",
+          "text": "L",
+          "voice": "LIMA"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "MIKE"
+        },
+        {
+          "variableName": "N",
+          "text": "N",
+          "voice": "NOVEMBER"
+        },
+        {
+          "variableName": "O",
+          "text": "O",
+          "voice": "OSCAR"
+        },
+        {
+          "variableName": "P",
+          "text": "P",
+          "voice": "PAPA"
+        },
+        {
+          "variableName": "Q",
+          "text": "Q",
+          "voice": "QUEBEC"
+        },
+        {
+          "variableName": "R",
+          "text": "R",
+          "voice": "ROMEO"
+        },
+        {
+          "variableName": "S",
+          "text": "S",
+          "voice": "SIERA"
+        },
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TANGO"
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
+        },
+        {
+          "variableName": "V",
+          "text": "V",
+          "voice": "VICTOR"
+        },
+        {
+          "variableName": "W",
+          "text": "W",
+          "voice": "WHISKEY"
+        },
+        {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
+          "variableName": "APP",
+          "text": "APP",
+          "voice": "APPROACH"
+        },
+        {
+          "variableName": "CTR",
+          "text": "CTR",
+          "voice": "RADAR"
         }
       ],
       "airportConditionDefinitions": [
@@ -2032,6 +2312,146 @@
           "variableName": "VS",
           "text": "VIS",
           "voice": "VISIBILITY"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
+        },
+        {
+          "variableName": "B",
+          "text": "B",
+          "voice": "BRAVO"
+        },
+        {
+          "variableName": "C",
+          "text": "C",
+          "voice": "CHARLIE"
+        },
+        {
+          "variableName": "D",
+          "text": "D",
+          "voice": "DELTA"
+        },
+        {
+          "variableName": "E",
+          "text": "E",
+          "voice": "ECHO"
+        },
+        {
+          "variableName": "F",
+          "text": "F",
+          "voice": "FOXTROT"
+        },
+        {
+          "variableName": "G",
+          "text": "G",
+          "voice": "GOLF"
+        },
+        {
+          "variableName": "H",
+          "text": "H",
+          "voice": "HOTEL"
+        },
+        {
+          "variableName": "I",
+          "text": "I",
+          "voice": "INDIA"
+        },
+        {
+          "variableName": "J",
+          "text": "J",
+          "voice": "JULIET"
+        },
+        {
+          "variableName": "K",
+          "text": "K",
+          "voice": "KILO"
+        },
+        {
+          "variableName": "L",
+          "text": "L",
+          "voice": "LIMA"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "MIKE"
+        },
+        {
+          "variableName": "N",
+          "text": "N",
+          "voice": "NOVEMBER"
+        },
+        {
+          "variableName": "O",
+          "text": "O",
+          "voice": "OSCAR"
+        },
+        {
+          "variableName": "P",
+          "text": "P",
+          "voice": "PAPA"
+        },
+        {
+          "variableName": "Q",
+          "text": "Q",
+          "voice": "QUEBEC"
+        },
+        {
+          "variableName": "R",
+          "text": "R",
+          "voice": "ROMEO"
+        },
+        {
+          "variableName": "S",
+          "text": "S",
+          "voice": "SIERA"
+        },
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TANGO"
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
+        },
+        {
+          "variableName": "V",
+          "text": "V",
+          "voice": "VICTOR"
+        },
+        {
+          "variableName": "W",
+          "text": "W",
+          "voice": "WHISKEY"
+        },
+        {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
+          "variableName": "APP",
+          "text": "APP",
+          "voice": "APPROACH"
+        },
+        {
+          "variableName": "CTR",
+          "text": "CTR",
+          "voice": "RADAR"
         }
       ],
       "airportConditionDefinitions": [],
