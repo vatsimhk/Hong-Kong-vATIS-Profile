@@ -838,6 +838,11 @@
           "variableName": "CTR",
           "text": "CTR",
           "voice": "RADAR"
+        },
+        {
+          "variableName": "INFO",
+          "text": "INFO",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [
@@ -1774,6 +1779,11 @@
           "variableName": "CTR",
           "text": "CTR",
           "voice": "RADAR"
+        },
+        {
+          "variableName": "INFO",
+          "text": "INFO",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [
@@ -2452,6 +2462,11 @@
           "variableName": "CTR",
           "text": "CTR",
           "voice": "RADAR"
+        },
+        {
+          "variableName": "INFO",
+          "text": "INFO",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [],
