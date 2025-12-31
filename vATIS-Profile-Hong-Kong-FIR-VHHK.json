@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2025102802,
+  "updateSerial": 2025122101,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -350,7 +350,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "ACKNOWLEDGE INFO {letter} ON FIRST CTC.",
             "voice": "ACKNOWLEDGE INFORMATION {letter|word}, ON FIRST CONTACT."
@@ -698,99 +698,154 @@
           "variableName": "US",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
+        },
+        {
+          "variableName": "B",
+          "text": "B",
+          "voice": "BRAVO"
+        },
+        {
+          "variableName": "C",
+          "text": "C",
+          "voice": "CHARLIE"
+        },
+        {
+          "variableName": "D",
+          "text": "D",
+          "voice": "DELTA"
+        },
+        {
+          "variableName": "E",
+          "text": "E",
+          "voice": "ECHO"
+        },
+        {
+          "variableName": "F",
+          "text": "F",
+          "voice": "FOXTROT"
+        },
+        {
+          "variableName": "G",
+          "text": "G",
+          "voice": "GOLF"
+        },
+        {
+          "variableName": "H",
+          "text": "H",
+          "voice": "HOTEL"
+        },
+        {
+          "variableName": "I",
+          "text": "I",
+          "voice": "INDIA"
+        },
+        {
+          "variableName": "J",
+          "text": "J",
+          "voice": "JULIET"
+        },
+        {
+          "variableName": "K",
+          "text": "K",
+          "voice": "KILO"
+        },
+        {
+          "variableName": "L",
+          "text": "L",
+          "voice": "LIMA"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "MIKE"
+        },
+        {
+          "variableName": "N",
+          "text": "N",
+          "voice": "NOVEMBER"
+        },
+        {
+          "variableName": "O",
+          "text": "O",
+          "voice": "OSCAR"
+        },
+        {
+          "variableName": "P",
+          "text": "P",
+          "voice": "PAPA"
+        },
+        {
+          "variableName": "Q",
+          "text": "Q",
+          "voice": "QUEBEC"
+        },
+        {
+          "variableName": "R",
+          "text": "R",
+          "voice": "ROMEO"
+        },
+        {
+          "variableName": "S",
+          "text": "S",
+          "voice": "SIERA"
+        },
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TANGO"
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
+        },
+        {
+          "variableName": "V",
+          "text": "V",
+          "voice": "VICTOR"
+        },
+        {
+          "variableName": "W",
+          "text": "W",
+          "voice": "WHISKEY"
+        },
+        {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
+          "variableName": "APP",
+          "text": "APP",
+          "voice": "APPROACH"
+        },
+        {
+          "variableName": "CTR",
+          "text": "CTR",
+          "voice": "RADAR"
+        },
+        {
+          "variableName": "INFO",
+          "text": "INFO",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [
-        {
-          "text": "DEPARTURES, RWY 07L",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, RWY 07C",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, RWY 07R",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, @RWY07CR",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "RWY 07R IS NON OPERATIONAL",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, RWY 25L",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, RWY 25C",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, RWY 25R",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "DEPARTURES, @RWY25CL",
-          "ordinal": 9,
-          "enabled": false
-        },
-        {
-          "text": "RWY 25L IS NON OPERATIONAL",
-          "ordinal": 10,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 07R AFTER 0800Z",
-          "ordinal": 11,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 25L AFTER 0800Z",
-          "ordinal": 12,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 07C AFTER 1500Z",
-          "ordinal": 13,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 25C AFTER 1500Z",
-          "ordinal": 14,
-          "enabled": false
-        },
-        {
-          "text": "INDEPENDENT PARALLEL DEPARTURE IN PROGRESS",
-          "ordinal": 15,
-          "enabled": false
-        },
-        {
-          "text": "RWY @SFC ALL PARTS WET",
-          "ordinal": 16,
-          "enabled": false
-        },
-        {
-          "text": "RWY @SFC ALL PARTS DRY",
-          "ordinal": 17,
-          "enabled": false
-        },
-        {
-          "text": "@SIG @WS @FCST",
-          "ordinal": 18,
-          "enabled": false
-        }
       ],
       "notamDefinitions": []
     },
@@ -1145,7 +1200,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
             "text": "ACKNOWLEDGE INFO {letter} ON FIRST CTC.",
             "voice": "ACKNOWLEDGE INFORMATION {letter|word}, ON FIRST CONTACT."
@@ -1494,141 +1549,156 @@
           "variableName": "US",
           "text": "U/S",
           "voice": "UNSERVICEABLE"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
+        },
+        {
+          "variableName": "B",
+          "text": "B",
+          "voice": "BRAVO"
+        },
+        {
+          "variableName": "C",
+          "text": "C",
+          "voice": "CHARLIE"
+        },
+        {
+          "variableName": "D",
+          "text": "D",
+          "voice": "DELTA"
+        },
+        {
+          "variableName": "E",
+          "text": "E",
+          "voice": "ECHO"
+        },
+        {
+          "variableName": "F",
+          "text": "F",
+          "voice": "FOXTROT"
+        },
+        {
+          "variableName": "G",
+          "text": "G",
+          "voice": "GOLF"
+        },
+        {
+          "variableName": "H",
+          "text": "H",
+          "voice": "HOTEL"
+        },
+        {
+          "variableName": "I",
+          "text": "I",
+          "voice": "INDIA"
+        },
+        {
+          "variableName": "J",
+          "text": "J",
+          "voice": "JULIET"
+        },
+        {
+          "variableName": "K",
+          "text": "K",
+          "voice": "KILO"
+        },
+        {
+          "variableName": "L",
+          "text": "L",
+          "voice": "LIMA"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "MIKE"
+        },
+        {
+          "variableName": "N",
+          "text": "N",
+          "voice": "NOVEMBER"
+        },
+        {
+          "variableName": "O",
+          "text": "O",
+          "voice": "OSCAR"
+        },
+        {
+          "variableName": "P",
+          "text": "P",
+          "voice": "PAPA"
+        },
+        {
+          "variableName": "Q",
+          "text": "Q",
+          "voice": "QUEBEC"
+        },
+        {
+          "variableName": "R",
+          "text": "R",
+          "voice": "ROMEO"
+        },
+        {
+          "variableName": "S",
+          "text": "S",
+          "voice": "SIERA"
+        },
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TANGO"
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
+        },
+        {
+          "variableName": "V",
+          "text": "V",
+          "voice": "VICTOR"
+        },
+        {
+          "variableName": "W",
+          "text": "W",
+          "voice": "WHISKEY"
+        },
+        {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
+          "variableName": "APP",
+          "text": "APP",
+          "voice": "APPROACH"
+        },
+        {
+          "variableName": "CTR",
+          "text": "CTR",
+          "voice": "RADAR"
+        },
+        {
+          "variableName": "INFO",
+          "text": "INFO",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [
-        {
-          "text": "ARRIVALS, RWY 07L",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, RWY 07C",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, RWY 07R",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, @RWY07LR",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "@EXP ILS @APCH",
-          "ordinal": 11,
-          "enabled": false
-        },
-        {
-          "text": "@EXP ILS @APCH @RWY07LR",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, RWY 25L",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, RWY 25C",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, RWY 25R",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "ARRIVALS, @RWY25RL",
-          "ordinal": 9,
-          "enabled": false
-        },
-        {
-          "text": "@EXP ILS @APCH, RWY 25L",
-          "ordinal": 10,
-          "enabled": false
-        },
-        {
-          "text": "@EXP @RNAV TRANSITION TO ILS @APCH RWY 25R",
-          "ordinal": 12,
-          "enabled": false
-        },
-        {
-          "text": "@EXP @RNP @Y @APCH, RWY 25R",
-          "ordinal": 13,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 07L AFTER 0800Z",
-          "ordinal": 16,
-          "enabled": false
-        },
-        {
-          "text": "@EXP RWY 25R AFTER 0800Z",
-          "ordinal": 17,
-          "enabled": false
-        },
-        {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 07R",
-          "ordinal": 18,
-          "enabled": false
-        },
-        {
-          "text": "CAUTION POSSIBLE @GP FLUCTUATION FOR RWY 25L",
-          "ordinal": 19,
-          "enabled": false
-        },
-        {
-          "text": "@RNP @APCH IS @AVBL ON @REQ, RWY 25R",
-          "ordinal": 14,
-          "enabled": false
-        },
-        {
-          "text": "@RNP @APCH IS @AVBL ON @REQ",
-          "ordinal": 15,
-          "enabled": false
-        },
-        {
-          "text": "RWY 07R IS NON OPERATIONAL",
-          "ordinal": 20,
-          "enabled": false
-        },
-        {
-          "text": "RWY 25L IS NON OPERATIONAL",
-          "ordinal": 21,
-          "enabled": false
-        },
-        {
-          "text": "RWY @SFC ALL PARTS WET",
-          "ordinal": 22,
-          "enabled": false
-        },
-        {
-          "text": "RWY @SFC ALL PARTS DRY",
-          "ordinal": 23,
-          "enabled": false
-        },
-        {
-          "text": "@SIG @WS @FCST",
-          "ordinal": 24,
-          "enabled": false
-        }
       ],
       "notamDefinitions": [
-        {
-          "text": "@EXP @SIG TAILWIND ON BASELEG",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "@CB IN @APCH",
-          "ordinal": 2,
-          "enabled": false
-        }
       ]
     },
     {
@@ -2032,6 +2102,151 @@
           "variableName": "VS",
           "text": "VIS",
           "voice": "VISIBILITY"
+        },
+        {
+          "variableName": "A",
+          "text": "A",
+          "voice": "ALPHA"
+        },
+        {
+          "variableName": "B",
+          "text": "B",
+          "voice": "BRAVO"
+        },
+        {
+          "variableName": "C",
+          "text": "C",
+          "voice": "CHARLIE"
+        },
+        {
+          "variableName": "D",
+          "text": "D",
+          "voice": "DELTA"
+        },
+        {
+          "variableName": "E",
+          "text": "E",
+          "voice": "ECHO"
+        },
+        {
+          "variableName": "F",
+          "text": "F",
+          "voice": "FOXTROT"
+        },
+        {
+          "variableName": "G",
+          "text": "G",
+          "voice": "GOLF"
+        },
+        {
+          "variableName": "H",
+          "text": "H",
+          "voice": "HOTEL"
+        },
+        {
+          "variableName": "I",
+          "text": "I",
+          "voice": "INDIA"
+        },
+        {
+          "variableName": "J",
+          "text": "J",
+          "voice": "JULIET"
+        },
+        {
+          "variableName": "K",
+          "text": "K",
+          "voice": "KILO"
+        },
+        {
+          "variableName": "L",
+          "text": "L",
+          "voice": "LIMA"
+        },
+        {
+          "variableName": "M",
+          "text": "M",
+          "voice": "MIKE"
+        },
+        {
+          "variableName": "N",
+          "text": "N",
+          "voice": "NOVEMBER"
+        },
+        {
+          "variableName": "O",
+          "text": "O",
+          "voice": "OSCAR"
+        },
+        {
+          "variableName": "P",
+          "text": "P",
+          "voice": "PAPA"
+        },
+        {
+          "variableName": "Q",
+          "text": "Q",
+          "voice": "QUEBEC"
+        },
+        {
+          "variableName": "R",
+          "text": "R",
+          "voice": "ROMEO"
+        },
+        {
+          "variableName": "S",
+          "text": "S",
+          "voice": "SIERA"
+        },
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TANGO"
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
+        },
+        {
+          "variableName": "V",
+          "text": "V",
+          "voice": "VICTOR"
+        },
+        {
+          "variableName": "W",
+          "text": "W",
+          "voice": "WHISKEY"
+        },
+        {
+          "variableName": "X",
+          "text": "X",
+          "voice": "X RAY"
+        },
+        {
+          "variableName": "Y",
+          "text": "Y",
+          "voice": "YANKEE"
+        },
+        {
+          "variableName": "Z",
+          "text": "Z",
+          "voice": "ZULU"
+        },
+        {
+          "variableName": "APP",
+          "text": "APP",
+          "voice": "APPROACH"
+        },
+        {
+          "variableName": "CTR",
+          "text": "CTR",
+          "voice": "RADAR"
+        },
+        {
+          "variableName": "INFO",
+          "text": "INFO",
+          "voice": "INFORMATION"
         }
       ],
       "airportConditionDefinitions": [],
