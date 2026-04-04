@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2026032701,
+  "updateSerial": 2026040401,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -1571,132 +1571,132 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "A",
+          "variableName": "IA",
           "text": "A",
           "voice": "ALPHA"
         },
         {
-          "variableName": "B",
+          "variableName": "IB",
           "text": "B",
           "voice": "BRAVO"
         },
         {
-          "variableName": "C",
+          "variableName": "IC",
           "text": "C",
           "voice": "CHARLIE"
         },
         {
-          "variableName": "D",
+          "variableName": "ID",
           "text": "D",
           "voice": "DELTA"
         },
         {
-          "variableName": "E",
+          "variableName": "IE",
           "text": "E",
           "voice": "ECHO"
         },
         {
-          "variableName": "F",
+          "variableName": "IF",
           "text": "F",
           "voice": "FOXTROT"
         },
         {
-          "variableName": "G",
+          "variableName": "IG",
           "text": "G",
           "voice": "GOLF"
         },
         {
-          "variableName": "H",
+          "variableName": "IH",
           "text": "H",
           "voice": "HOTEL"
         },
         {
-          "variableName": "I",
+          "variableName": "II",
           "text": "I",
           "voice": "INDIA"
         },
         {
-          "variableName": "J",
+          "variableName": "IJ",
           "text": "J",
           "voice": "JULIET"
         },
         {
-          "variableName": "K",
+          "variableName": "IK",
           "text": "K",
           "voice": "KILO"
         },
         {
-          "variableName": "L",
+          "variableName": "IL",
           "text": "L",
           "voice": "LIMA"
         },
         {
-          "variableName": "M",
+          "variableName": "IM",
           "text": "M",
           "voice": "MIKE"
         },
         {
-          "variableName": "N",
+          "variableName": "IN",
           "text": "N",
           "voice": "NOVEMBER"
         },
         {
-          "variableName": "O",
+          "variableName": "IO",
           "text": "O",
           "voice": "OSCAR"
         },
         {
-          "variableName": "P",
+          "variableName": "IP",
           "text": "P",
           "voice": "PAPA"
         },
         {
-          "variableName": "Q",
+          "variableName": "IQ",
           "text": "Q",
           "voice": "QUEBEC"
         },
         {
-          "variableName": "R",
+          "variableName": "IR",
           "text": "R",
           "voice": "ROMEO"
         },
         {
-          "variableName": "S",
+          "variableName": "IS",
           "text": "S",
           "voice": "SIERA"
         },
         {
-          "variableName": "T",
+          "variableName": "IT",
           "text": "T",
           "voice": "TANGO"
         },
         {
-          "variableName": "U",
+          "variableName": "IU",
           "text": "U",
           "voice": "UNIFORM"
         },
         {
-          "variableName": "V",
+          "variableName": "IV",
           "text": "V",
           "voice": "VICTOR"
         },
         {
-          "variableName": "W",
+          "variableName": "IW",
           "text": "W",
           "voice": "WHISKEY"
         },
         {
-          "variableName": "X",
+          "variableName": "IX",
           "text": "X",
           "voice": "X RAY"
         },
         {
-          "variableName": "Y",
+          "variableName": "IY",
           "text": "Y",
           "voice": "YANKEE"
         },
         {
-          "variableName": "Z",
+          "variableName": "IZ",
           "text": "Z",
           "voice": "ZULU"
         },
@@ -2129,132 +2129,132 @@
           "voice": "VISIBILITY"
         },
         {
-          "variableName": "A",
+          "variableName": "IA",
           "text": "A",
           "voice": "ALPHA"
         },
         {
-          "variableName": "B",
+          "variableName": "IB",
           "text": "B",
           "voice": "BRAVO"
         },
         {
-          "variableName": "C",
+          "variableName": "IC",
           "text": "C",
           "voice": "CHARLIE"
         },
         {
-          "variableName": "D",
+          "variableName": "ID",
           "text": "D",
           "voice": "DELTA"
         },
         {
-          "variableName": "E",
+          "variableName": "IE",
           "text": "E",
           "voice": "ECHO"
         },
         {
-          "variableName": "F",
+          "variableName": "IF",
           "text": "F",
           "voice": "FOXTROT"
         },
         {
-          "variableName": "G",
+          "variableName": "IG",
           "text": "G",
           "voice": "GOLF"
         },
         {
-          "variableName": "H",
+          "variableName": "IH",
           "text": "H",
           "voice": "HOTEL"
         },
         {
-          "variableName": "I",
+          "variableName": "II",
           "text": "I",
           "voice": "INDIA"
         },
         {
-          "variableName": "J",
+          "variableName": "IJ",
           "text": "J",
           "voice": "JULIET"
         },
         {
-          "variableName": "K",
+          "variableName": "IK",
           "text": "K",
           "voice": "KILO"
         },
         {
-          "variableName": "L",
+          "variableName": "IL",
           "text": "L",
           "voice": "LIMA"
         },
         {
-          "variableName": "M",
+          "variableName": "IM",
           "text": "M",
           "voice": "MIKE"
         },
         {
-          "variableName": "N",
+          "variableName": "IN",
           "text": "N",
           "voice": "NOVEMBER"
         },
         {
-          "variableName": "O",
+          "variableName": "IO",
           "text": "O",
           "voice": "OSCAR"
         },
         {
-          "variableName": "P",
+          "variableName": "IP",
           "text": "P",
           "voice": "PAPA"
         },
         {
-          "variableName": "Q",
+          "variableName": "IQ",
           "text": "Q",
           "voice": "QUEBEC"
         },
         {
-          "variableName": "R",
+          "variableName": "IR",
           "text": "R",
           "voice": "ROMEO"
         },
         {
-          "variableName": "S",
+          "variableName": "IS",
           "text": "S",
           "voice": "SIERA"
         },
         {
-          "variableName": "T",
+          "variableName": "IT",
           "text": "T",
           "voice": "TANGO"
         },
         {
-          "variableName": "U",
+          "variableName": "IU",
           "text": "U",
           "voice": "UNIFORM"
         },
         {
-          "variableName": "V",
+          "variableName": "IV",
           "text": "V",
           "voice": "VICTOR"
         },
         {
-          "variableName": "W",
+          "variableName": "IW",
           "text": "W",
           "voice": "WHISKEY"
         },
         {
-          "variableName": "X",
+          "variableName": "IX",
           "text": "X",
           "voice": "X RAY"
         },
         {
-          "variableName": "Y",
+          "variableName": "IY",
           "text": "Y",
           "voice": "YANKEE"
         },
         {
-          "variableName": "Z",
+          "variableName": "IZ",
           "text": "Z",
           "voice": "ZULU"
         },
