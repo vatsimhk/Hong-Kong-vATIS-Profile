@@ -3,7 +3,7 @@
   "name": "Hong Kong FIR VHHK",
   "id": "7fbe76fe-8c10-4693-ac73-2d98fd7f5876",
   "updateUrl": "https://raw.githubusercontent.com/vatsimhk/Hong-Kong-vATIS-Profile/refs/heads/main/vATIS-Profile-Hong-Kong-FIR-VHHK.json",
-  "updateSerial": 2026040402,
+  "updateSerial": 2026041201,
   "stations": [
     {
       "id": "86bd9813-ef34-4afd-9d4f-f92c706fc5b8",
@@ -700,132 +700,132 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "IA",
+          "variableName": "NATOA",
           "text": "A",
           "voice": "ALPHA"
         },
         {
-          "variableName": "IB",
+          "variableName": "NATOB",
           "text": "B",
           "voice": "BRAVO"
         },
         {
-          "variableName": "IC",
+          "variableName": "NATOC",
           "text": "C",
           "voice": "CHARLIE"
         },
         {
-          "variableName": "ID",
+          "variableName": "NATOD",
           "text": "D",
           "voice": "DELTA"
         },
         {
-          "variableName": "IE",
+          "variableName": "NATOE",
           "text": "E",
           "voice": "ECHO"
         },
         {
-          "variableName": "IF",
+          "variableName": "NATOF",
           "text": "F",
-          "voice": "FOXTROT"
+          "voice": "FOXTROTNFO"
         },
         {
-          "variableName": "IG",
+          "variableName": "NATOG",
           "text": "G",
           "voice": "GOLF"
         },
         {
-          "variableName": "IH",
+          "variableName": "NATOH",
           "text": "H",
           "voice": "HOTEL"
         },
         {
-          "variableName": "II",
+          "variableName": "NATOI",
           "text": "I",
           "voice": "INDIA"
         },
         {
-          "variableName": "IJ",
+          "variableName": "NATOJ",
           "text": "J",
           "voice": "JULIET"
         },
         {
-          "variableName": "IK",
+          "variableName": "NATOK",
           "text": "K",
           "voice": "KILO"
         },
         {
-          "variableName": "IL",
+          "variableName": "NATOL",
           "text": "L",
           "voice": "LIMA"
         },
         {
-          "variableName": "IM",
+          "variableName": "NATOM",
           "text": "M",
           "voice": "MIKE"
         },
         {
-          "variableName": "IN",
+          "variableName": "NATON",
           "text": "N",
           "voice": "NOVEMBER"
         },
         {
-          "variableName": "IO",
+          "variableName": "NATOO",
           "text": "O",
           "voice": "OSCAR"
         },
         {
-          "variableName": "IP",
+          "variableName": "NATOP",
           "text": "P",
           "voice": "PAPA"
         },
         {
-          "variableName": "IQ",
+          "variableName": "NATOQ",
           "text": "Q",
           "voice": "QUEBEC"
         },
         {
-          "variableName": "IR",
+          "variableName": "NATOR",
           "text": "R",
           "voice": "ROMEO"
         },
         {
-          "variableName": "IS",
+          "variableName": "NATOS",
           "text": "S",
           "voice": "SIERA"
         },
         {
-          "variableName": "IT",
+          "variableName": "NATOT",
           "text": "T",
           "voice": "TANGO"
         },
         {
-          "variableName": "IU",
+          "variableName": "NATOU",
           "text": "U",
           "voice": "UNIFORM"
         },
         {
-          "variableName": "IV",
+          "variableName": "NATOV",
           "text": "V",
           "voice": "VICTOR"
         },
         {
-          "variableName": "IW",
+          "variableName": "NATOW",
           "text": "W",
           "voice": "WHISKEY"
         },
         {
-          "variableName": "IX",
+          "variableName": "NATOX",
           "text": "X",
           "voice": "X RAY"
         },
         {
-          "variableName": "IY",
+          "variableName": "NATOY",
           "text": "Y",
           "voice": "YANKEE"
         },
         {
-          "variableName": "IZ",
+          "variableName": "NATOZ",
           "text": "Z",
           "voice": "ZULU"
         },
@@ -1571,132 +1571,132 @@
           "voice": "UNSERVICEABLE"
         },
         {
-          "variableName": "IA",
+          "variableName": "NATOA",
           "text": "A",
           "voice": "ALPHA"
         },
         {
-          "variableName": "IB",
+          "variableName": "NATOB",
           "text": "B",
           "voice": "BRAVO"
         },
         {
-          "variableName": "IC",
+          "variableName": "NATOC",
           "text": "C",
           "voice": "CHARLIE"
         },
         {
-          "variableName": "ID",
+          "variableName": "NATOD",
           "text": "D",
           "voice": "DELTA"
         },
         {
-          "variableName": "IE",
+          "variableName": "NATOE",
           "text": "E",
           "voice": "ECHO"
         },
         {
-          "variableName": "IF",
+          "variableName": "NATOF",
           "text": "F",
           "voice": "FOXTROT"
         },
         {
-          "variableName": "IG",
+          "variableName": "NATOG",
           "text": "G",
           "voice": "GOLF"
         },
         {
-          "variableName": "IH",
+          "variableName": "NATOH",
           "text": "H",
           "voice": "HOTEL"
         },
         {
-          "variableName": "II",
+          "variableName": "NATOI",
           "text": "I",
           "voice": "INDIA"
         },
         {
-          "variableName": "IJ",
+          "variableName": "NATOJ",
           "text": "J",
           "voice": "JULIET"
         },
         {
-          "variableName": "IK",
+          "variableName": "NATOK",
           "text": "K",
           "voice": "KILO"
         },
         {
-          "variableName": "IL",
+          "variableName": "NATOL",
           "text": "L",
           "voice": "LIMA"
         },
         {
-          "variableName": "IM",
+          "variableName": "NATOM",
           "text": "M",
           "voice": "MIKE"
         },
         {
-          "variableName": "IN",
+          "variableName": "NATON",
           "text": "N",
           "voice": "NOVEMBER"
         },
         {
-          "variableName": "IO",
+          "variableName": "NATOO",
           "text": "O",
           "voice": "OSCAR"
         },
         {
-          "variableName": "IP",
+          "variableName": "NATOP",
           "text": "P",
           "voice": "PAPA"
         },
         {
-          "variableName": "IQ",
+          "variableName": "NATOQ",
           "text": "Q",
           "voice": "QUEBEC"
         },
         {
-          "variableName": "IR",
+          "variableName": "NATOR",
           "text": "R",
           "voice": "ROMEO"
         },
         {
-          "variableName": "IS",
+          "variableName": "NATOS",
           "text": "S",
           "voice": "SIERA"
         },
         {
-          "variableName": "IT",
+          "variableName": "NATOT",
           "text": "T",
           "voice": "TANGO"
         },
         {
-          "variableName": "IU",
+          "variableName": "NATOU",
           "text": "U",
           "voice": "UNIFORM"
         },
         {
-          "variableName": "IV",
+          "variableName": "NATOV",
           "text": "V",
           "voice": "VICTOR"
         },
         {
-          "variableName": "IW",
+          "variableName": "NATOW",
           "text": "W",
           "voice": "WHISKEY"
         },
         {
-          "variableName": "IX",
+          "variableName": "NATOX",
           "text": "X",
           "voice": "X RAY"
         },
         {
-          "variableName": "IY",
+          "variableName": "NATOY",
           "text": "Y",
           "voice": "YANKEE"
         },
         {
-          "variableName": "IZ",
+          "variableName": "NATOZ",
           "text": "Z",
           "voice": "ZULU"
         },
@@ -2129,132 +2129,132 @@
           "voice": "VISIBILITY"
         },
         {
-          "variableName": "IA",
+          "variableName": "NATOA",
           "text": "A",
           "voice": "ALPHA"
         },
         {
-          "variableName": "IB",
+          "variableName": "NATOB",
           "text": "B",
           "voice": "BRAVO"
         },
         {
-          "variableName": "IC",
+          "variableName": "NATOC",
           "text": "C",
           "voice": "CHARLIE"
         },
         {
-          "variableName": "ID",
+          "variableName": "NATOD",
           "text": "D",
           "voice": "DELTA"
         },
         {
-          "variableName": "IE",
+          "variableName": "NATOE",
           "text": "E",
           "voice": "ECHO"
         },
         {
-          "variableName": "IF",
+          "variableName": "NATOF",
           "text": "F",
           "voice": "FOXTROT"
         },
         {
-          "variableName": "IG",
+          "variableName": "NATOG",
           "text": "G",
           "voice": "GOLF"
         },
         {
-          "variableName": "IH",
+          "variableName": "NATOH",
           "text": "H",
           "voice": "HOTEL"
         },
         {
-          "variableName": "II",
+          "variableName": "NATOI",
           "text": "I",
           "voice": "INDIA"
         },
         {
-          "variableName": "IJ",
+          "variableName": "NATOJ",
           "text": "J",
           "voice": "JULIET"
         },
         {
-          "variableName": "IK",
+          "variableName": "NATOK",
           "text": "K",
           "voice": "KILO"
         },
         {
-          "variableName": "IL",
+          "variableName": "NATOL",
           "text": "L",
           "voice": "LIMA"
         },
         {
-          "variableName": "IM",
+          "variableName": "NATOM",
           "text": "M",
           "voice": "MIKE"
         },
         {
-          "variableName": "IN",
+          "variableName": "NATON",
           "text": "N",
           "voice": "NOVEMBER"
         },
         {
-          "variableName": "IO",
+          "variableName": "NATOO",
           "text": "O",
           "voice": "OSCAR"
         },
         {
-          "variableName": "IP",
+          "variableName": "NATOP",
           "text": "P",
           "voice": "PAPA"
         },
         {
-          "variableName": "IQ",
+          "variableName": "NATOQ",
           "text": "Q",
           "voice": "QUEBEC"
         },
         {
-          "variableName": "IR",
+          "variableName": "NATOR",
           "text": "R",
           "voice": "ROMEO"
         },
         {
-          "variableName": "IS",
+          "variableName": "NATOS",
           "text": "S",
           "voice": "SIERA"
         },
         {
-          "variableName": "IT",
+          "variableName": "NATOT",
           "text": "T",
           "voice": "TANGO"
         },
         {
-          "variableName": "IU",
+          "variableName": "NATOU",
           "text": "U",
           "voice": "UNIFORM"
         },
         {
-          "variableName": "IV",
+          "variableName": "NATOV",
           "text": "V",
           "voice": "VICTOR"
         },
         {
-          "variableName": "IW",
+          "variableName": "NATOW",
           "text": "W",
           "voice": "WHISKEY"
         },
         {
-          "variableName": "IX",
+          "variableName": "NATOX",
           "text": "X",
           "voice": "X RAY"
         },
         {
-          "variableName": "IY",
+          "variableName": "NATOY",
           "text": "Y",
           "voice": "YANKEE"
         },
         {
-          "variableName": "IZ",
+          "variableName": "NATOZ",
           "text": "Z",
           "voice": "ZULU"
         },
